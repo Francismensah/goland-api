@@ -2,8 +2,8 @@ package transport
 
 import (
 	"encoding/json"
+	"github.com/Francismensah/goland-api/internal/todo"
 	"log"
-	"my-first-api/internal/todo"
 	"net/http"
 )
 

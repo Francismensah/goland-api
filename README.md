@@ -21,7 +21,7 @@ A simple RESTful API for managing todo items built with Go and PostgreSQL.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/my-first-api.git
+    git https://github.com/Francismensah/goland-api.git
     cd my-first-api
     ```
 
@@ -45,7 +45,7 @@ A simple RESTful API for managing todo items built with Go and PostgreSQL.
 
 1. Start the server:
     ```bash
-    go run cmd/main.go
+    go run main.go
     ```
 
 The server will start on `localhost:8080`
@@ -122,7 +122,7 @@ go test ./...
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is not under any license. Feel to clone and use.
 
 ## Acknowledgments
 
