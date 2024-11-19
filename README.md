@@ -96,19 +96,19 @@ go test ./...
 
 ## Project Structure
 ```
-.
-├── cmd/
-│   └── main.go
+.my-first-api
 ├── internal/
 │   ├── db/
 │   │   └── db.go
 │   ├── todo/
-│   │   ├── service.go
-│   │   └── service_test.go
+│   │   ├── todo.go
+│   │   └── todo_test.go
 │   └── transport/
-│       └── server.go
+│       └── http.go
+├── docker-compose.yml
 ├── go.mod
-├── go.sum
+├── main.go
+├── my-first-api.http
 └── README.md
 ```
 
